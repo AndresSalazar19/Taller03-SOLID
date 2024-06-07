@@ -1,6 +1,6 @@
 package Taller03_SOLID.secA.ocp.good;
 
-public class Department implements IHome {
+public class Department implements Home {
 
     @Override
     public int calculateRent() {

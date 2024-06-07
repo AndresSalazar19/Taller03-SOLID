@@ -1,7 +1,7 @@
 package Taller03_SOLID.secA.isp.bad;
 
 
-public class FueledCar implements ICar{
+public class FueledCar implements Car{
 
     @Override
     public void refillFuel() {

@@ -7,9 +7,8 @@ public class EmailPrinter {
         this.email = email;
     }
 
-    public void printEMail(){
+    public void printEMail() {
         System.out.println(email.content);
     }
-
 
 }

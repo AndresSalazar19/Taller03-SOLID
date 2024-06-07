@@ -1,7 +1,6 @@
 package Taller03_SOLID.secA.isp.good;
 
-
-public class MitsubishiFueledCar implements FueledCar{
+public class MitsubishiFueledCar implements FueledCar {
 
     @Override
     public void refillFuel() {
@@ -15,5 +14,4 @@ public class MitsubishiFueledCar implements FueledCar{
     public void changeTires() {
     }
 
-    
 }

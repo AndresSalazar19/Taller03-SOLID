@@ -11,7 +11,7 @@ public class Email {
         this.content = content;
     }
 
-    public void printEMail(){
+    public void printEMail() {
         System.out.println(content);
     }
 

@@ -1,7 +1,6 @@
 package Taller03_SOLID.secA.isp.good;
 
-public class SuzukiElectricCar implements ElectricCar{
-
+public class SuzukiElectricCar implements ElectricCar {
 
     @Override
     public void changeTires() {
@@ -10,5 +9,5 @@ public class SuzukiElectricCar implements ElectricCar{
     @Override
     public void changeBattery() {
     }
-    
+
 }

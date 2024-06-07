@@ -6,7 +6,8 @@ public class App {
     public App(DatabaseConnection databaseConnection) {
         this.databaseConnection = databaseConnection;
     }
-    public void connectToDatabase(){
+
+    public void connectToDatabase() {
         databaseConnection.connectToDatabase();
     }
 }
